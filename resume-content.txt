@@ -1,0 +1,115 @@
+ARNAB SEN
+M.Sc. Data Science
+Data Scientist & AI Engineer
+
+Contact Information:
+Email: arnabsen1729@gmail.com
+Phone: +91 8145993415
+GitHub: github.com/Arnabsen1729
+
+================================================================================
+SUMMARY
+================================================================================
+
+Data Scientist and AI Engineer with expertise in LLMs, automation, machine learning, NLP, OCR, and workflow intelligence. Skilled at building AI-powered systems that improve developer experience, automate workflows, and deliver intelligent solutions.
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+APPIAN
+Senior Software Engineer
+Chennai, India
+Sep 2023 - Present
+
+• Designed and built an AI-powered Co-Pilot for Appian using Java, RAIL, and LLM reasoning to auto-generate workflows, expressions, and UI components.
+
+• AI Co-Pilot for Appian Development with Automation and LLM Integrations
+
+• Built AI services that analyze SAIL code, websites, workflows, automate documentation, and accelerate Appian development using LLM reasoning.
+
+--------------------------------------------------------------------------------
+
+CARELON GLOBAL SOLUTIONS
+Associate Data Scientist (AI)
+Bangalore, India
+Jul 2022 - Aug 2023
+
+• Developed an AI-driven OCR-NLP-ML pipeline to automate medical bill processing, reducing manual intervention significantly.
+
+• Built a GPT-4 integrated automated bill submission system delivering 70% faster processing with improved accuracy.
+
+• Designed a multimodal GPT-Vision system to automate categorize health insurance plans, reducing 80% manual effort and making claims processing 45% faster.
+
+• Developed an AI-driven chatbot using SpaCy, ML, Text Mining.
+
+• Python Documentation AI Assistant: A Streamlit-based RAG system using Llama to transcribe Python documentation. Tools: RAG, Ollama, LangChain, Streamlit, Python.
+
+--------------------------------------------------------------------------------
+
+XKDR FORUM
+ML Intern
+Mumbai, India
+Feb 2022 - May 2022
+
+• Implemented k-fold cross-validation in Julia 2x ML packages.
+
+• Created comprehensive documentation improving adoption and usability.
+
+--------------------------------------------------------------------------------
+
+NCAER
+Intern
+Remote
+Aug 2021 - Sep 2021
+
+• Built clustering algorithm for tools—state/advocate entries, answering for linguistic variation and reducing unique categories by 60%.
+
+================================================================================
+EDUCATION
+================================================================================
+
+Chennai Mathematical Institute
+M.Sc. Data Science
+Chennai, India
+2020 - 2022 (CGPA: 7.66)
+
+Presidency University
+B.Sc. Mathematics
+Kolkata, India
+2017 - 2020 (CGPA: 7.50)
+
+================================================================================
+PERSONAL PROJECTS
+================================================================================
+
+Custom Distance Metric Clustering
+Dec 2021
+Implemented K-Means supporting custom distance metrics.
+Tools: Python, sklearn
+
+IPL Dashboard (Tableau)
+Jan 2021
+Created an interactive dashboard visualizing factors influencing match outcomes.
+Tools: Tableau, Python
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+
+• Build Projects with LangChain - Udemy
+• Understanding LLMs - Udemy
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Languages: Python, Julia, R
+
+AI/ML: NLP, OCR, SpaCy, LucidCharts, ML, Text Mining
+
+Cloud/DB: AWS, MongoDB, MySQL
+
+Coursework: ML, NLP, Data Mining
+
+Interests: Deep Learning, AI Automation

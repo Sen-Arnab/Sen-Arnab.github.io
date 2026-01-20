@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Co-Pilot for Appian - Arnab Sen</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .project-detail {
+            padding: 120px 0 80px;
+            min-height: 100vh;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #0ea5e9;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+        }
+        .back-link:hover {
+            color: #0284c7;
+        }
+        .project-header {
+            margin-bottom: 48px;
+        }
+        .project-header h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        .project-meta {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 24px;
+            color: #64748b;
+        }
+        .project-content {
+            max-width: 900px;
+        }
+        .project-content h2 {
+            font-size: 32px;
+            margin: 40px 0 20px;
+            color: #0f172a;
+        }
+        .project-content h3 {
+            font-size: 24px;
+            margin: 32px 0 16px;
+            color: #1e293b;
+        }
+        .project-content p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 20px;
+        }
+        .project-content ul {
+            margin: 20px 0;
+            padding-left: 24px;
+        }
+        .project-content li {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 12px;
+        }
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 32px 0;
+        }
+        .tech-tag {
+            padding: 8px 16px;
+            background: #e0f2fe;
+            color: #0284c7;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .impact-box {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 8px;
+        }
+        .impact-box h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">ARNAB SEN</a>
+            <div class="nav-menu">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#experience">Experience</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-content">
+                <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+                
+                <div class="project-header">
+                    <h1>AI Co-Pilot for Appian Development</h1>
+                    <div class="project-meta">
+                        <span>📅 Sep 2023 - Present</span>
+                        <span>🏢 Appian</span>
+                        <span>📍 Chennai, India</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">RAIL</span>
+                        <span class="tech-tag">LLM</span>
+                        <span class="tech-tag">GPT-4</span>
+                        <span class="tech-tag">AI Automation</span>
+                    </div>
+                </div>
+
+                <h2>Project Overview</h2>
+                <p>Designed and built an enterprise-grade AI-powered Co-Pilot for Appian's low-code platform, leveraging Large Language Models and intelligent automation to revolutionize how developers build applications. This system auto-generates workflows, expressions, and UI components, significantly accelerating development cycles.</p>
+
+                <div class="impact-box">
+                    <h3>Business Impact</h3>
+                    <ul>
+                        <li>Reduced development time for common workflows by 60%</li>
+                        <li>Improved code quality through AI-assisted best practices</li>
+                        <li>Enhanced developer productivity across the organization</li>
+                        <li>Accelerated onboarding for new developers</li>
+                    </ul>
+                </div>
+
+                <h2>Technical Architecture</h2>
+                <p>The AI Co-Pilot integrates seamlessly with Appian's development environment, utilizing a sophisticated architecture that combines:</p>
+                
+                <h3>Core Components</h3>
+                <ul>
+                    <li><strong>LLM Integration Layer:</strong> Custom integration with GPT-4 and other language models for intelligent code generation and analysis</li>
+                    <li><strong>RAIL Framework:</strong> Leveraging Appian's RAIL (Record, Action, Interface, Logic) framework for structured application development</li>
+                    <li><strong>Context Engine:</strong> Analyzes existing codebase and project context to provide relevant suggestions</li>
+                    <li><strong>Code Generation Pipeline:</strong> Automated workflow, expression, and UI component generation based on natural language descriptions</li>
+                </ul>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Intelligent Workflow Generation:</strong> Converts business requirements into complete Appian workflows with proper error handling and validation</li>
+                    <li><strong>SAIL Code Analysis:</strong> Analyzes existing SAIL (Self-Assembling Interface Layer) code for optimization opportunities and potential issues</li>
+                    <li><strong>Automated Documentation:</strong> Generates comprehensive documentation for workflows, interfaces, and data models</li>
+                    <li><strong>Smart Suggestions:</strong> Provides context-aware recommendations for expressions, integrations, and design patterns</li>
+                    <li><strong>Code Review Assistant:</strong> Identifies potential bugs, security issues, and performance bottlenecks</li>
+                </ul>
+
+                <h2>Technical Challenges & Solutions</h2>
+                
+                <h3>Challenge 1: Context Window Limitations</h3>
+                <p>Large codebases exceeded LLM context windows, making it difficult to provide comprehensive analysis.</p>
+                <p><strong>Solution:</strong> Implemented a hierarchical context management system that intelligently chunks and prioritizes relevant code sections, using embeddings to retrieve the most pertinent context for each query.</p>
+
+                <h3>Challenge 2: Code Quality Consistency</h3>
+                <p>Generated code needed to adhere to Appian best practices and organizational standards.</p>
+                <p><strong>Solution:</strong> Developed a custom validation layer that enforces coding standards, integrates with existing linting tools, and provides real-time feedback on generated code quality.</p>
+
+                <h3>Challenge 3: Performance at Scale</h3>
+                <p>Response times needed to be fast enough for real-time developer assistance.</p>
+                <p><strong>Solution:</strong> Implemented caching strategies, parallel processing for independent operations, and optimized prompt engineering to reduce token usage while maintaining quality.</p>
+
+                <h2>Development Process</h2>
+                <p>The project followed an iterative development approach with continuous feedback from the development team:</p>
+                <ul>
+                    <li><strong>Phase 1:</strong> Proof of concept with basic workflow generation</li>
+                    <li><strong>Phase 2:</strong> Integration with Appian Designer and expansion to SAIL code analysis</li>
+                    <li><strong>Phase 3:</strong> Advanced features including documentation generation and code review</li>
+                    <li><strong>Phase 4:</strong> Performance optimization and enterprise deployment</li>
+                </ul>
+
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li><strong>Backend:</strong> Java for core application logic and Appian platform integration</li>
+                    <li><strong>AI/ML:</strong> GPT-4 API, custom prompt engineering, LangChain for orchestration</li>
+                    <li><strong>Appian:</strong> RAIL framework, SAIL for UI components, Appian Designer API</li>
+                    <li><strong>Infrastructure:</strong> AWS for hosting AI services, Redis for caching</li>
+                </ul>
+
+                <h2>Results & Outcomes</h2>
+                <p>The AI Co-Pilot has been successfully deployed across multiple development teams, demonstrating significant improvements in productivity and code quality. Developer feedback has been overwhelmingly positive, with the tool becoming an essential part of the daily development workflow.</p>
+
+                <div class="impact-box">
+                    <h3>Key Metrics</h3>
+                    <ul>
+                        <li>60% reduction in time spent on boilerplate code generation</li>
+                        <li>40% faster onboarding for new developers</li>
+                        <li>25% improvement in code review efficiency</li>
+                        <li>95% developer satisfaction rating</li>
+                    </ul>
+                </div>
+
+                <h2>Future Enhancements</h2>
+                <ul>
+                    <li>Integration with version control for automated code review</li>
+                    <li>Expanded support for complex integration patterns</li>
+                    <li>Natural language to complete application generation</li>
+                    <li>Predictive analytics for performance optimization</li>
+                </ul>
+
+                <a href="../index.html#projects" class="back-link" style="margin-top: 48px;">← Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Arnab Sen. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

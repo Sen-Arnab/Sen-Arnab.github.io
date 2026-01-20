@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-Vision Healthcare System - Arnab Sen</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .project-detail {
+            padding: 120px 0 80px;
+            min-height: 100vh;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #0ea5e9;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+        }
+        .back-link:hover {
+            color: #0284c7;
+        }
+        .project-header {
+            margin-bottom: 48px;
+        }
+        .project-header h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        .project-meta {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 24px;
+            color: #64748b;
+        }
+        .project-content {
+            max-width: 900px;
+        }
+        .project-content h2 {
+            font-size: 32px;
+            margin: 40px 0 20px;
+            color: #0f172a;
+        }
+        .project-content h3 {
+            font-size: 24px;
+            margin: 32px 0 16px;
+            color: #1e293b;
+        }
+        .project-content p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 20px;
+        }
+        .project-content ul {
+            margin: 20px 0;
+            padding-left: 24px;
+        }
+        .project-content li {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 12px;
+        }
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 32px 0;
+        }
+        .tech-tag {
+            padding: 8px 16px;
+            background: #e0f2fe;
+            color: #0284c7;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .impact-box {
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 8px;
+        }
+        .impact-box h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">ARNAB SEN</a>
+            <div class="nav-menu">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#experience">Experience</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-content">
+                <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+                
+                <div class="project-header">
+                    <h1>Multimodal GPT-Vision Healthcare System</h1>
+                    <div class="project-meta">
+                        <span>📅 Jul 2022 - Aug 2023</span>
+                        <span>🏢 Carelon Global Solutions</span>
+                        <span>📍 Bangalore, India</span>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">GPT-4</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">OCR</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <h2>Project Overview</h2>
+                <p>Designed and implemented a cutting-edge multimodal AI system combining GPT-4's vision capabilities with advanced OCR and NLP technologies to automate health insurance plan categorization and medical bill processing. This solution transformed manual, time-intensive healthcare operations into an intelligent, automated workflow.</p>
+
+                <div class="impact-box">
+                    <h3>Business Impact</h3>
+                    <ul>
+                        <li><strong>80% reduction</strong> in manual effort for plan categorization</li>
+                        <li><strong>70% faster</strong> medical bill processing</li>
+                        <li><strong>45% improvement</strong> in claims processing speed</li>
+                        <li><strong>95% accuracy</strong> in document classification</li>
+                        <li>Saved thousands of hours annually in manual data entry</li>
+                    </ul>
+                </div>
+
+                <h2>Problem Statement</h2>
+                <p>Healthcare insurance operations faced significant challenges:</p>
+                <ul>
+                    <li>Manual processing of thousands of medical bills daily, leading to delays and errors</li>
+                    <li>Complex insurance plan documents requiring expert knowledge to categorize</li>
+                    <li>Inconsistent document formats from various healthcare providers</li>
+                    <li>High operational costs due to labor-intensive manual review</li>
+                    <li>Slow claims processing affecting customer satisfaction</li>
+                </ul>
+
+                <h2>Solution Architecture</h2>
+                
+                <h3>1. Intelligent Document Processing Pipeline</h3>
+                <p>Built an end-to-end AI pipeline that processes documents through multiple stages:</p>
+                <ul>
+                    <li><strong>Document Ingestion:</strong> Automated intake of medical bills and insurance documents from multiple sources</li>
+                    <li><strong>OCR Layer:</strong> Advanced optical character recognition to extract text from scanned documents and images</li>
+                    <li><strong>GPT-Vision Analysis:</strong> Multimodal processing combining visual document structure with text content</li>
+                    <li><strong>NLP Processing:</strong> Entity extraction, classification, and validation of medical terminology</li>
+                    <li><strong>ML Classification:</strong> Automated categorization and routing based on document type and content</li>
+                </ul>
+
+                <h3>2. GPT-4 Vision Integration</h3>
+                <p>Leveraged GPT-4's multimodal capabilities to understand both visual layout and textual content:</p>
+                <ul>
+                    <li>Analyzed document structure to identify key sections (diagnosis, procedures, costs)</li>
+                    <li>Extracted information from tables, forms, and unstructured text</li>
+                    <li>Handled poor quality scans and handwritten notes</li>
+                    <li>Cross-referenced visual and textual information for validation</li>
+                </ul>
+
+                <h3>3. Automated Bill Submission System</h3>
+                <p>Integrated with existing healthcare systems to enable automated processing:</p>
+                <ul>
+                    <li>Automatic extraction of patient information, provider details, and billing codes</li>
+                    <li>Validation against insurance policy rules and coverage limits</li>
+                    <li>Automated claim generation and submission</li>
+                    <li>Real-time status tracking and exception handling</li>
+                </ul>
+
+                <h2>Technical Implementation</h2>
+                
+                <h3>OCR & Document Processing</h3>
+                <ul>
+                    <li>Implemented custom OCR pipeline using Tesseract and cloud-based OCR services</li>
+                    <li>Pre-processing techniques for image enhancement and noise reduction</li>
+                    <li>Multi-language support for diverse document sources</li>
+                    <li>Confidence scoring and human-in-the-loop for low-confidence extractions</li>
+                </ul>
+
+                <h3>NLP & Entity Extraction</h3>
+                <ul>
+                    <li>Custom NER (Named Entity Recognition) models trained on medical terminology</li>
+                    <li>SpaCy-based pipeline for medical entity extraction</li>
+                    <li>Relationship extraction between diagnoses, procedures, and costs</li>
+                    <li>Medical code mapping (ICD-10, CPT codes)</li>
+                </ul>
+
+                <h3>Machine Learning Models</h3>
+                <ul>
+                    <li>Document classification models for routing and categorization</li>
+                    <li>Anomaly detection for identifying fraudulent claims</li>
+                    <li>Predictive models for claim approval likelihood</li>
+                    <li>Continuous learning from human feedback</li>
+                </ul>
+
+                <h2>Key Challenges & Solutions</h2>
+                
+                <h3>Challenge 1: Document Variability</h3>
+                <p>Medical bills came in hundreds of different formats from various providers.</p>
+                <p><strong>Solution:</strong> Developed a flexible template-matching system combined with GPT-4's ability to understand context regardless of format. Created a feedback loop to continuously improve recognition of new formats.</p>
+
+                <h3>Challenge 2: Medical Terminology Complexity</h3>
+                <p>Accurate extraction required understanding complex medical terminology and abbreviations.</p>
+                <p><strong>Solution:</strong> Built custom medical vocabulary databases and fine-tuned NLP models on healthcare-specific datasets. Integrated with medical ontologies (SNOMED, ICD-10) for validation.</p>
+
+                <h3>Challenge 3: Data Privacy & Compliance</h3>
+                <p>Healthcare data required strict HIPAA compliance and security measures.</p>
+                <p><strong>Solution:</strong> Implemented end-to-end encryption, secure data handling protocols, and audit logging. Deployed on-premise solutions for sensitive data processing.</p>
+
+                <h3>Challenge 4: Accuracy Requirements</h3>
+                <p>Healthcare operations demanded near-perfect accuracy to avoid claim rejections.</p>
+                <p><strong>Solution:</strong> Multi-stage validation pipeline with confidence scoring, automated cross-checks, and human review for edge cases. Achieved 95%+ accuracy through iterative improvements.</p>
+
+                <h2>Technologies & Tools</h2>
+                <ul>
+                    <li><strong>AI/ML:</strong> GPT-4 Vision API, Custom ML models, SpaCy, scikit-learn</li>
+                    <li><strong>OCR:</strong> Tesseract, Google Cloud Vision API, AWS Textract</li>
+                    <li><strong>Backend:</strong> Python, FastAPI, Celery for task queuing</li>
+                    <li><strong>Data:</strong> PostgreSQL, MongoDB for document storage, Redis for caching</li>
+                    <li><strong>Infrastructure:</strong> AWS (EC2, S3, Lambda), Docker, Kubernetes</li>
+                    <li><strong>Monitoring:</strong> Prometheus, Grafana, ELK stack for logging</li>
+                </ul>
+
+                <h2>Results & Outcomes</h2>
+                
+                <div class="impact-box">
+                    <h3>Quantifiable Results</h3>
+                    <ul>
+                        <li><strong>Processing Time:</strong> Reduced from 15 minutes to 4 minutes per bill (70% faster)</li>
+                        <li><strong>Manual Effort:</strong> Decreased from 100% manual review to 20% (80% reduction)</li>
+                        <li><strong>Claims Processing:</strong> 45% faster end-to-end processing</li>
+                        <li><strong>Accuracy:</strong> 95% automated accuracy vs. 92% manual accuracy</li>
+                        <li><strong>Cost Savings:</strong> Estimated $2M+ annual savings in operational costs</li>
+                        <li><strong>Throughput:</strong> Increased from 500 to 2,000 bills processed daily</li>
+                    </ul>
+                </div>
+
+                <h2>Lessons Learned</h2>
+                <ul>
+                    <li>Importance of domain expertise in training and validating AI models</li>
+                    <li>Value of human-in-the-loop systems for continuous improvement</li>
+                    <li>Need for robust error handling and fallback mechanisms in production</li>
+                    <li>Significance of stakeholder feedback in iterative development</li>
+                </ul>
+
+                <h2>Future Enhancements</h2>
+                <ul>
+                    <li>Real-time processing with streaming data pipelines</li>
+                    <li>Expanded support for international healthcare systems</li>
+                    <li>Predictive analytics for claim approval optimization</li>
+                    <li>Integration with electronic health records (EHR) systems</li>
+                </ul>
+
+                <a href="../index.html#projects" class="back-link" style="margin-top: 48px;">← Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Arnab Sen. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
